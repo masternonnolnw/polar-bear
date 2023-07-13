@@ -32,7 +32,7 @@ const PolarBearPage = () => {
   const middleY = windowSize.height / 2;
   const px = mousePos.x - middleX;
   const py = mousePos.y - middleY;
-  console.log(px, py);
+  // console.log(px, py);
   return (
     <div className="flex w-[100vw] h-[100vh] bg-[#5cd8fd] relative overflow-visible">
       <div className="flex w-[600px] max-w-[90%] h-[400px] max-h-[90%] border-[1px] rounded-xl absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] overflow-visible">
