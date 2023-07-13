@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import FakeCard from "../FakeCard";
 
 const PolarBearPage = () => {
   const [mousePos, setMousePos] = useState<any>({});
